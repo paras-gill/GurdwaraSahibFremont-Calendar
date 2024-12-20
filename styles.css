@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+#language-toggle {
+  display: inline-block;
+  margin-bottom: 20px;
+  border-radius: 25px;
+  overflow: hidden;
+  border: 2px solid #2B2757;
+}
+
+.toggle-button {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: white;
+  color: #2B2757;
+  border: none;
+  font-weight: bold;
+  outline: none;
+}
+
+.toggle-button.selected {
+  background-color: #2B2757;
+  color: white;
+}
+
+.table-container {
+  margin: 20px auto;
+  width: 80%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 40px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  color: #2B2757;
+}
+
+.header-row {
+  background-color: #EA8A1E;
+  color: #2B2757;
+  font-weight: bold;
+}
+
+.header-row td {
+  padding: 12px;
+  font-size: 1.2em;
+}
